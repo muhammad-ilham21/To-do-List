@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arrays and loops</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <p>Todo List</p>
+  <div class="todoList-grid">
+  <input class="js-input input-css" placeholder="To do name"
+  onkeydown="
+   todoListEnter(event);
+  ">
+  <input type="date" class="js-input-date  date-css">
+  <button class="add-button-css js-to-do-button">Add</button>
+  </div>
+
+  <div class="js-todo-list todolist-output-grid"></div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body{
+  font-family: Arial;
+}
+.todoList-grid{
+  display: grid;
+  grid-template-columns:200px 150px 100px ;
+  column-gap: 10px;
+  align-items: stretch;
+  margin-bottom: 20px;
+}
+.input-css{
+  font-size:15px ;
+  padding: 8px 8px;
+}
+.date-css{
+  height: 32px;
+  font-size: 15px;
+}
+.add-button-css{
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  padding: 8px 8px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+}
+.todolist-output-grid{
+  display: grid;
+  grid-template-columns:200px 150px 100px ;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: stretch;
+}
+.dlt-btn{
+  background-color: rgb(179, 12, 12);
+  border: none;
+  padding: 10px 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.display-content{
+  background-color: antiquewhite;
+  padding: 10px;
+
+}
