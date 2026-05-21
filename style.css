@@ -1,6 +1,23 @@
 body{
   font-family: Arial;
 }
+.todoList-main{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+p {
+  background-color: antiquewhite;
+  margin: 10px 100px 10px 100px ;
+  width: 250px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
 .todoList-grid{
   display: grid;
   grid-template-columns:200px 150px 100px ;
